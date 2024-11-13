@@ -2,14 +2,14 @@
 
 int main()
 {
-    int numero1, numero2, somma;
+    int num1, num2, somma;
     float media;
     printf("\nScrivi il primo numero ");
-    scanf("%d", &numero1);                   // Primo numero da inserire
+    scanf("%d", &num1);                      //Primo numero da inserire
     printf("\nScrivi il secondo numero ");
-    scanf("%d", &numero2);                  // Secondo numero da inserire
+    scanf("%d", &num2);                     //Secondo numero da inserire
 
-    somma = numero1 + numero2;
+    somma = num1 + num2;
     printf("\nLa somma dei due numeri è: %d", somma);
 
     media = (float)somma / 2;
