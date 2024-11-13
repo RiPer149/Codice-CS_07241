@@ -1,0 +1,10 @@
+a = 30
+b = 70
+print(f"a + b = {a + b}")
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b}")
+print(f"{a} // {b} = {a // b}")  # divisione intera
+print(f"{a} % {b} = {a % b}")    # resto e modulo
+print(f"{a} ** {b} = {a ** b}")  # potenza
